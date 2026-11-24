@@ -8,13 +8,13 @@ using TMPro;
 public class UnityEvents : MonoBehaviour
 {
     // ON ENABLED SECTION
-    public UnityEvent OnStart;
+    public UnityEvent onStart;
     private bool Toggle = true;
     private void OnEnable()
     {
         if (Toggle)
         {
-            OnStart.Invoke();
+            onStart.Invoke();
             Toggle = false;
         }
     }
