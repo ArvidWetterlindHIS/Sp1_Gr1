@@ -214,9 +214,10 @@ GameObject:
   - component: {fileID: 709737501}
   - component: {fileID: 709737500}
   - component: {fileID: 709737499}
+  - component: {fileID: 709737502}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,6 +309,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &709737502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709737498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5235d010f2681743a86ee17ad1a6d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEvents
+  OnStart:
+    m_PersistentCalls:
+      m_Calls: []
+  tagToActivate: Player
+  onTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  Timer: 30
+  onTimeEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  timerValueUI: {fileID: 0}
 --- !u!1 &1863879334
 GameObject:
   m_ObjectHideFlags: 0
