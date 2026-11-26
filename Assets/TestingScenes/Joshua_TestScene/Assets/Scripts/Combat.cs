@@ -13,12 +13,13 @@ public class Combat : MonoBehaviour
     public void InitiateCombat()
     {
         SceneManager.LoadSceneAsync("FightScene", LoadSceneMode.Single); //SWITCH TO FIGHT SCENE
-        CombatRound();
-        //INITIATE COMBAT
+            //SET STATS FOR THE FIGHT
+            //INITIALIZE ENEMIES AND THE PLAYER
+            //ISLAND DECIDES WHAT ENEMIES THERE ARE.
+            //Player.CreatePlayer();
+        CombatRound(); //INITIATE COMBAT
         
-        //SET STATS FOR THE FIGHT
-        //INITIALIZE ENEMIES AND THE PLAYER
-        //ISLAND DECIDES WHAT ENEMIES THERE ARE.
+        
     }
     
     public void CombatRound()

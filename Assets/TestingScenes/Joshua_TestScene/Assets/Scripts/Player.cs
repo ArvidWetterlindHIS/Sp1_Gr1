@@ -5,9 +5,7 @@ public class Player : Actor
         [SerializeField] private string playerName = "Scab";
         [SerializeField] private Sprite playerSprite;
         [SerializeField] private SpriteRenderer playerRenderer;
-        [SerializeField] private int health = 20;
-        [SerializeField] private int maxHealth = 20;
-        [SerializeField] private int damage = 2;
+       
 
         public void Initialize(string playerName, Sprite playerSprite, Vector3 playerPosition)
         {
