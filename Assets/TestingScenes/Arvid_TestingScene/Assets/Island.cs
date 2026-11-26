@@ -20,8 +20,6 @@ public class Island : MonoBehaviour
         this.islandMapSprite = islandMapSprite;
         transform.position = islandPosition;
         islandRenderer.sprite = islandMapSprite;
-        
-        DontDestroyOnLoad(gameObject);
     }
 
     public static Island CreateIsland(string objectName, string islandName, Sprite islandMapSprite, Vector3 islandPosition)
